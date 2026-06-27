@@ -1,0 +1,29 @@
+*{
+    box-sizing: border-box;
+    margin: auto;
+    padding: 0;
+}
+
+body{
+    font-family: arial, sans-serif;
+    background-color:white;
+    color: #333;
+
+}
+.container{
+    max-width: 70rem;
+    margin: auto;
+    padding: 2rem;
+}
+
+h1{
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid{
+    display: flex;
+    gap: 2%;
+}
