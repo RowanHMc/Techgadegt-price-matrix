@@ -27,3 +27,43 @@ h1{
     display: flex;
     gap: 2%;
 }
+
+.grid article{
+    width:48%;
+    background: white;
+    padding: 2em;
+    border: 3px solid red;
+}
+
+.grid article{
+    padding: 2em;
+    margin-bottom: 2em;
+}
+
+.grid article:first-of-type{
+    border: 4px solid gold
+}
+
+footer a{
+    color: white ;
+    text-decoration: none;
+}
+
+.price-tag> span{
+    color: red;
+    font-weight: bold;
+    font-size: 2em;
+    }
+h2 + div{
+    color: red;
+    font-style: italic;
+}
+
+button:hover{
+    background: green;
+    color: white;
+}
+.features li:nth-child(even){
+    background: black;
+    color:aliceblue;
+}
